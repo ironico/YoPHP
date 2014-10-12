@@ -22,6 +22,11 @@ class Yo {
         return $this->sendRequest("http://api.justyo.co/yo/",$data);
        
     }
+    
+    public function msg($username,$text){
+     return  $this->user($username,"http://www.yotext.co?text=".$text);
+    }
+    
 
     public function all($link='') {
         $data=array();
