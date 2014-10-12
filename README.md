@@ -26,6 +26,9 @@ $yo->all("LINK");
 // Send a Yo with Link to one user
 $yo->user("USERNAME","LINK"); 
 
+// Send a Yo message to one user
+$yo->msg("USERNAME","Hi, This is a message..");
+
 // Send a Yo with Location to one user
 $yo->user("USERNAME","40.8497051","14.2198926"); 
 
